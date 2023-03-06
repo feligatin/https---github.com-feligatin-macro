@@ -1,0 +1,37 @@
+<form>
+  <h2>Encuesta de satisfacción del cliente</h2>
+  
+  <div>
+    <label>1. ¿Le despacharon los productos revisando la factura?</label>
+    <label><input type="radio" name="pregunta1" value="si"> Sí</label>
+    <label><input type="radio" name="pregunta1" value="no"> No</label>
+  </div>
+  
+  <div>
+    <label>2. ¿Le entregaron la factura?</label>
+    <label><input type="radio" name="pregunta2" value="si"> Sí</label>
+    <label><input type="radio" name="pregunta2" value="no"> No</label>
+  </div>
+  
+  <div>
+    <label>3. ¿Cómo califica la amabilidad del cajero?</label>
+    <input type="range" name="pregunta3" min="0" max="10" step="1">
+  </div>
+  
+  <div>
+    <label>4. ¿Cómo califica su satisfacción general?</label>
+    <input type="range" name="pregunta4" min="0" max="10" step="1">
+  </div>
+  
+  <div>
+    <label>5. En una escala del 0 al 10, ¿en qué nivel recomendaría XYZ a amigos o familiares?</label>
+    <input type="range" name="pregunta5" min="0" max="10" step="1">
+  </div>
+  
+  <div>
+    <label>6. Sus observaciones finales por favor:</label>
+    <textarea name="pregunta6"></textarea>
+  </div>
+  
+  <button type="submit">Enviar</button>
+</form>
